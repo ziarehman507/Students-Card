@@ -1,5 +1,4 @@
 import React from 'react'
-import wellcom from "../image/wellcom.jpg"
 
 
 
@@ -8,12 +7,12 @@ function Home() {
     <div className='main'>
         <div className='app'>
             
-        <img src={wellcom} />
+        <h1 style={{color:"#ffff"}}>HELLO</h1>
 
         
         </div>
 
-        <div className='input'>
+        <div className='input'>    
         <input className='inputtext' type='text'></input>
         <button className='button'>Search</button>
         </div>
