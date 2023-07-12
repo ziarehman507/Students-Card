@@ -8,6 +8,7 @@ import Card2 from './Compunants/Card2';
 
 //atif
 ///zia
+//qadir
 
 const routes = createBrowserRouter([
   {path:'/', element: <Home/>},
