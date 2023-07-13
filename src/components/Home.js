@@ -1,4 +1,5 @@
 import React from 'react'
+import wellcom from "../image/wellcom.jpg"
 
 
 
@@ -7,7 +8,7 @@ function Home() {
     <div className='main'>
         <div className='app'>
             
-        <h1 style={{color:"#ffff"}}>HELLO</h1>
+        <img src={wellcom} />
 
         
         </div>
