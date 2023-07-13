@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Card2() {
+function SeachBar() {
   return (
-    <div>Card2</div>
+    <div>
+      
+    </div>
   )
 }
 
-export default Card2
+export default SeachBar

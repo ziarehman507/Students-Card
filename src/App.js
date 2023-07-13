@@ -2,9 +2,10 @@ import React from 'react'
 import './App.css'
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 
-import Home from './Compunants/Home';
-import Card1 from './Compunants/Card1';
-import Card2 from './Compunants/Card2';
+import Home from '../src/components/Home';
+import Card from '../src/components/Card';
+import Auth from '../src/components/Auth';
+import SeachBar from '../src/components/SeachBar'
 
 //atif
 ///zia
@@ -12,8 +13,9 @@ import Card2 from './Compunants/Card2';
 
 const routes = createBrowserRouter([
   {path:'/', element: <Home/>},
-  {path:'/Card1', element: <Card1/>},
-  {path: '/Card2', element: <Card2/>},
+  {path:'/Card', element: <Card/>},
+  {path: '/Auth', element: <Auth/>},
+  {path: '/Seachbar', element: <SeachBar/>},
  
 ])
 
