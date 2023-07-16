@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import './components/Auth.css'
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 
 
@@ -12,12 +12,17 @@ import Studentfees from './components/Studentfees';
 
 
 const routes = createBrowserRouter([
-  {path:'/', element: <Home/>},
+  {path:'/', element: <Auth/>},
   {path:'/Card', element: <Card/>},
+
   {path:'/Calander', element: <Calander/>},
   {path:'/Auth', element: <Auth/>},
   {path:'/Studentfees', element: <Studentfees/>},
-  {path: '/details/:id', element: <Information /> }
+  {path: '/details/:id', element: <Information /> },
+
+  {path:'/SeachBar', element: <SeachBar/>},
+  {path:'/home', element: <Home/>},
+
 
 
 ])
