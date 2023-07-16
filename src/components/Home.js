@@ -1,21 +1,25 @@
 import React from 'react'
-import wellcom from "../image/wellcom.jpg"
+import backimge from "../image/backimge.jpg"
+import ayan from "../image/ayan.jpg"
+import { useNavigate } from 'react-router-dom';
 
 
 
 function Home() {
+
+  const navigate = useNavigate();
+
+
+
+
   return (
     <div className='main'>
-        <div className='app'>
-            
-        <img src={wellcom} />
 
+        <div style={{}}>    
+        <img style={{width:1366,height:660,}} src={backimge} />
+        <img style={{position:'absolute',marginTop:-620,height:100,borderRadius:10,marginLeft:150}} src={ayan}/>
+<button className='homebutton'onClick={()=> navigate('/card')}>Student Information</button>
         
-        </div>
-
-        <div className='input'>    
-        <input className='inputtext' type='text'></input>
-        <button className='button'>Search</button>
         </div>
        
     </div>

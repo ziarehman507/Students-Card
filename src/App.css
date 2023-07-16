@@ -1,40 +1,119 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
 
 }
 
+/* \\\\\\\ Home button \\\\\\\ */
 
-
-.main{
-  height: 100vw;
-  background-color: black;
+.homebutton:hover {
+  box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
 }
-.app {
 
-  margin-top: -40px;
+.homebutton {
+  position: absolute;
+  margin-top: -250px;
+  font-size: xx-large;
+  margin-left: 150px;
+  height: 70px;
+  width: 400px;
+  border-radius: 10px;
+  /* padding: 1.2em 2.8em; */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border-color: rgba(5, 4, 7, 0.836);
+  /* color: #fff; */
+  box-shadow: 0 0 40px 40px rgb(21, 162, 228) inset, 0 0 0 0 black;
+  transition: all 150ms ease-in-out;
+}
+
+
+
+.input {
   text-align: center;
+  margin-top: 10px;
+
+}
+
+.inputtext {
+  height: 40px;
+  width: 350px;
+  font-size: x-large;
+}
+
+.button {
+  height: 42px;
+  width: 90px;
+  margin-left: 10px;
+
+  font-size: x-large;
+}
+
+/* \\\\\\\\\\\\\\ end \\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/* ///////////card img dev //////// */
+
+.cardimgdev {
+  margin-top: 200px;
+  margin-left: 40px;
+}
+
+.cardimgdev2 {
+
+  margin-left: 30px;
+}
+
+.card-conatiner {
+  background-image: url('./image/cardbagimge.png');
+  height: 270px;
+  width: 400px;
+  margin: 10px;
+  margin-top: 100px;
+  border-radius: 10px;
+  margin-left: 30px;
   
-  }
 
-  .input{
-    text-align: center;
-    margin-top: 10px;
+}
 
-  }
+/* .img-canatiner{
+  display: flex;
+  height: 80px;
+  width: 80px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 5px;
+} */
 
-  .inputtext{
-    height: 40px;
-    width: 350px;
-    font-size: x-large;
-  }
+/* .name-canatiner{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -80px;
+  margin-left: 50px;
+} */
 
-  .button{
-    height: 42px;
-    width: 90px;
-    margin-left: 10px;
-    
-    font-size: x-large;
-  }
+/* .title-canatiner{
+  margin-left: 80px;
+  
+} */
 
-                       /* \\\\\\\\\\\\\\ end \\\\\\\\\\\\\\\\\\\\\\\ */
+/* .dob-canatiner{
+  margin-left: 145px;
+  margin-top: 10px;
+}
+
+.gender-canatiner{
+  margin-left: 145px;
+  margin-top: 10px;
+}
+
+
+.mobil-canatiner{
+  margin-left: 145px;
+  margin-top: 10px;
+} */
+
+

@@ -1,0 +1,44 @@
+.card-container {
+    background-image: url('../../image/cardbackimg123.jpg');
+    height: 250px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+  }
+ 
+
+  .title-canatiner{
+    margin-left: 80px;
+    
+  }
+
+  .name-canatiner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -80px;
+    margin-left: 50px;
+  }
+  
+  
+  
+  .dob-canatiner{
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  
+  .gender-canatiner{
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  
+  
+  .mobil-canatiner{
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  
+
+ 

@@ -6,14 +6,18 @@ import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Home from '../src/components/Home';
 import Card from '../src/components/Card';
 import Auth from '../src/components/Auth';
-import SeachBar from '../src/components/SeachBar'
+import Information from './information';
+import Calander from './components/Calander';
+import Studentfees from './components/Studentfees';
 
 
 const routes = createBrowserRouter([
   {path:'/', element: <Home/>},
   {path:'/Card', element: <Card/>},
-  {path:'/SeachBar', element: <SeachBar/>},
+  {path:'/Calander', element: <Calander/>},
   {path:'/Auth', element: <Auth/>},
+  {path:'/Studentfees', element: <Studentfees/>},
+  {path: '/details/:id', element: <Information /> }
 
 
 ])

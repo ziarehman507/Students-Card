@@ -1,0 +1,34 @@
+
+  .search-input{
+    width: 40%;
+    padding: 10px 4px 10px 10px;
+    margin-top: 5%;
+    border-radius: 10px;
+    font-size: 22px;
+  }
+
+  .cantainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+
+  }
+
+  .card-img-container{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 5px;
+  }
+
+  .card-cantainer-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  
+
