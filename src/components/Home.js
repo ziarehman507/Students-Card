@@ -2,6 +2,7 @@ import React from 'react'
 import backimge from "../image/backimge.jpg"
 import ayan from "../image/ayan.jpg"
 import { useNavigate } from 'react-router-dom';
+import '../App.css'
 
 
 
@@ -13,10 +14,10 @@ function Home() {
 
 
   return (
-    <div className='main'>
+    <div>
 
-        <div style={{}}>    
-        <img style={{width:1366,height:660,}} src={backimge} />
+        <div>    
+        <img style={{}} src={backimge} />
         <img style={{position:'absolute',marginTop:-620,height:100,borderRadius:10,marginLeft:150}} src={ayan}/>
 <button className='homebutton'onClick={()=> navigate('/card')}>Student Information</button>
         

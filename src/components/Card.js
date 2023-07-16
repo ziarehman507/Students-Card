@@ -1,4 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+import {data} from '../utils';
+import './card.css';
+import CardItem from './CardItem';
+
+
+
 
 function Card() {
   const [searchTerm, setSearchTerm] = useState("")
@@ -12,7 +19,38 @@ const handleClick = (userId) => {
 
 
   return (
-    <div>Card1</div>
+    <div className='card-cantainer-main' >
+
+      <input className='search-input' type='text' placeholder='Search...'
+        onChange={(event) => {
+          setSearchTerm(event.target.value);
+        }}
+      />
+
+      <div className='cantainer'>
+        
+          {data.filter((val) => {
+            if (searchTerm == "") {
+              return val
+            } else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
+              return val
+            } else if (val.Mobil.toLowerCase().includes(searchTerm.toLowerCase())) {
+              return val
+            }
+
+          }).map((val) => {
+            return (
+              <CardItem key={val.id} val={val} handleClick={handleClick} />
+            );
+          })}
+          
+      </div>
+
+
+
+
+
+    </div>
   )
 }
 
