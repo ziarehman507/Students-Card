@@ -4,7 +4,11 @@
     width: 350px;
     margin: 10px;
     border-radius: 10px;
+<<<<<<< HEAD
     margin-left: 35px;
+=======
+    margin-left: 40px;
+>>>>>>> 64d2f5d792c5ddfaaab190b38e6938afb713a436
     flex-wrap: wrap;
   }
  
