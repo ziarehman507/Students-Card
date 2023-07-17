@@ -12,26 +12,27 @@
 }
 .app {
 
+  margin-top: -40px;
   text-align: center;
-  
   
   }
 
   .input{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
 
   }
 
   .inputtext{
-    height: 50px;
+    height: 40px;
     width: 350px;
     font-size: x-large;
   }
 
   .button{
-    height: 52px;
+    height: 42px;
     width: 90px;
+    margin-left: 10px;
     
     font-size: x-large;
   }

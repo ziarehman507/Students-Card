@@ -2,22 +2,20 @@ import React from 'react'
 import './App.css'
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 
-import Home from './components/Home';
-import Card from './components/Card';
-import SeachBar from './components/SeachBar';
-import Auth from './components/Auth';
 
-
-
+import Home from '../src/components/Home';
+import Card from '../src/components/Card';
+import Auth from '../src/components/Auth';
+import SeachBar from '../src/components/SeachBar'
 
 
 const routes = createBrowserRouter([
   {path:'/', element: <Home/>},
   {path:'/Card', element: <Card/>},
-  {path: '/SeachBar', element: <SeachBar/>},
-  {path: '/Auth', element: <Auth/>},
+  {path:'/SeachBar', element: <SeachBar/>},
+  {path:'/Auth', element: <Auth/>},
 
- 
+
 ])
 
 
