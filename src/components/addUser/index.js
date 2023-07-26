@@ -15,6 +15,9 @@ export default function AddUser() {
   const [Gender, setGender] = useState("")
   const [Mobile, setMobile] = useState("")
   const [image, setImage] = useState("")
+  const [male, setMale] = useState("")
+  const [female, setFemal] = useState("")
+
 
   const fireStore = firebase.firestore();
   const fireStorage = firebase.storage();
@@ -127,11 +130,18 @@ export default function AddUser() {
           <input className='inputName' placeholder='Name' value={name} onChange={e => setName(e.target.value)} />
           <br /> <br />
           <input className='inputDob' placeholder='Dob' value={Dob} onChange={e => setDob(e.target.value)} />
-          <br /> <br />
-          <input className='inputGender' placeholder='Gender' value={Gender} onChange={e => setGender(e.target.value)} />
+          {/* <br /> <br /> */}
+          {/* <input className='inputGender' placeholder='Gender' value={Gender} onChange={e => setGender(e.target.value)} /> */}
+        
           <br /> <br />
           <input className='inputMobile' placeholder='Mobile No' value={Mobile} onChange={e => setMobile(e.target.value)} />
-          <br /> <br />
+          <br /> 
+          <br /> 
+              <input type="radio" value="Male" name="gender" /> Male
+               <input type="radio" value="Female" name="gender" /> Female
+          <br /> 
+        <br /> 
+
 
           <input className='inputFile' type='File' onChange={e => setImage(e.target.files[0])} />
 
