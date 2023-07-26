@@ -1,0 +1,76 @@
+.maindivsingup{
+    background-color: rgb(152, 219, 236);
+    height: 500px;
+    width: 400px;
+   margin-left: 35%;
+   border-radius: 5px;
+   margin-top: 50px;
+
+  }
+  .inputname{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10%;
+    text-align: center;
+  }
+  
+  .inputemail{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .inputpass{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10%;
+    text-align: center;
+  }
+  
+  .inputnumber{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .singupbtn{
+    background-color: rgb(28, 13, 248);
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    margin-left: 35%;
+    text-align: center;
+  }
+  .singupbtn:hover{
+    
+    box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px black;
+  }
+
+  .gotologin{
+    background-color: rgb(10, 212, 27);
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white; 
+    border: none;
+    margin-left: 25%;
+    text-align: center;
+  }
+  .gotologin:hover{
+    
+    box-shadow: 0 0 10px 0 black inset, 0 0 10px 4px black;
+  }

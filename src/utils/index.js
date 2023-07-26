@@ -66,7 +66,7 @@ const data = [
       title: "STUDENT CARD",
       name: "Aneeq Khan",
       Dob: "01/06/1995",
-      Gender: "Gender : M",
+      Gender: "M",
       Mobil: "03111072476",
   
     },

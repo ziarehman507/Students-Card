@@ -78,6 +78,29 @@
 
 }
 
+.LogOut:hover {
+  box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+}
+
+.LogOut {
+  position: absolute;
+  margin-top: -620px;
+  font-size: xx-large;
+  margin-left: 1150px;
+  height: 50px;
+  width: 160px;
+  border-radius: 10px;
+  /* padding: 1.2em 2.8em; */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  border-color: rgba(5, 4, 7, 0.836);
+  /* color: #fff; */
+  box-shadow: 0 0 40px 40px rgb(95, 235, 216) inset, 0 0 0 0 black;
+  transition: all 150ms ease-in-out;
+}
+
 /* .img-canatiner{
   display: flex;
   height: 80px;
