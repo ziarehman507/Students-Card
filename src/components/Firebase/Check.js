@@ -31,7 +31,7 @@ export default function Check() {
                           marginTop:"15px"}}
                           variant="h3">SIGNUP</Typography>
 
-    <Paper elevation={3} style={{width:"40ch",height:"70vh",
+    <Paper elevation={3} style={{width:"40ch",height:"75vh",
                                  padding:40,marginTop:70}}>
 
       <  CustomizedInputsStyled />

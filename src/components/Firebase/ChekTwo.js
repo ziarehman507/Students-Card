@@ -227,12 +227,14 @@ const handleLogin  = async () => {
 
 
 
-    <Stack direction="row" spacing={2}>
+    <Stack direction="column" spacing={2}>
+      
       <Button onClick={handleLogin}  variant="contained" color="success">
         LOGIN
       </Button>
+      
       <Button onClick={() => navigate('/Signup')}  variant="contained" endIcon={<SendIcon />}>
-        Go To SignUp
+        Create new account
       </Button>
       
       

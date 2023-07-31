@@ -37,7 +37,7 @@ export default function LoginTwo() {
      
      
         <Paper style={{ width: '40ch',
-            height: '55vh',
+            height: '60vh',
             padding:20,
             paddingTop:"90px",
             paddingLeft:"50px",

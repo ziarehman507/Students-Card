@@ -267,13 +267,13 @@ try {
     </div> */}
 
 
-    <Stack direction="row" spacing={2}>
+    <Stack direction="column" spacing={2}>
       <Button onClick={handleSingup}  variant="contained" color="success">
         SignUp
       </Button>
-      <Button onClick={() => navigate('/Login')}  variant="contained" endIcon={<SendIcon />}>
+      {/* <Button onClick={() => navigate('/Login')}  variant="contained" endIcon={<SendIcon />}>
         Go To LOGIN
-      </Button>
+      </Button> */}
       
       
     </Stack>
