@@ -23,6 +23,8 @@ export default function LoginTwo() {
         display: 'flex',
         flexWrap: 'wrap',
         justifyContent:'center',
+        height:"100vh",
+        paddingTop:"40px"
  
         
     }}
