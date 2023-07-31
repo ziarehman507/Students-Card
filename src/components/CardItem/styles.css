@@ -20,30 +20,45 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: -80px;
+    margin-top: -90px;
     margin-left: 50px;
   }
   
   
   
-  .dob-canatiner{
+  .date-canatiner{
    display: flex;
    justify-content: center;
-    margin-left:30px ;
+    margin-left:-30px ;
     margin-top: 10px;
   }
+
+  .month-canatiner{
+    display: flex;
+    justify-content: center;
+     margin-left:58px ;
+     margin-top: -21px;
+   }
+
+   .year-canatiner{
+    display: flex;
+    justify-content: center;
+     margin-left:120px ;
+     margin-top: -21px;
+   }
   
   .gender-canatiner{
     display: flex;
    justify-content: center;
     margin-top: 10px;
+    margin-left: 10px;
   }
   
   
   .mobil-canatiner{
     display: flex;
     justify-content: center;
-    margin-left:80px ;
+    margin-left:90px ;
      margin-top: 10px;
   }
   

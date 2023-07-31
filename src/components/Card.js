@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import './card.css';
 import CardItem from './CardItem';
 import firebase from 'firebase'
+import  ModalPopup  from './ModelPopup';
+import  PersistentDrawerLeft  from './Drawer';
 
 
 
@@ -38,19 +40,15 @@ function Card() {
     navigate(`/details/${userId}`)
   }
 
-  const Logout = () => {
-    localStorage.removeItem('user')
-    navigate('/Login', { replace: true })
-
-  }
-  const AddUser = () => {
-    navigate('/Adduser')
-
-  }
+  
+ 
+  
 
 
   return (
     <div className='card-cantainer-main' >
+        <PersistentDrawerLeft/>
+        
 
       <div className='input-container' >
         <input className='search-input' type='text' placeholder='Search...'
@@ -60,8 +58,10 @@ function Card() {
         />
       </div>
       <div className='btn-container' >
-        <button className='Cardadduser' onClick={AddUser}>Add Student</button>
-        <button className='Cardlogout' onClick={Logout}>LogOut</button>
+        {/* <button className='Cardadduser' onClick={AddUser}>Add Student</button> */}
+        
+       
+
 
       </div>
 
@@ -96,6 +96,8 @@ function Card() {
 
 
     </div>
+
+    
   )
 }
 
