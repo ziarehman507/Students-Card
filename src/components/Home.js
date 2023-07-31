@@ -21,9 +21,7 @@ const checkAuth = () => {
     navigate('/Login', {replace: true})
   }
 
-  const handleLogOut = () => {
-    localStorage.removeItem('user')
-  }
+
 
 }
 const handleLogOut = () => {
