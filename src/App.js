@@ -17,6 +17,7 @@ import Signup from './components/Firebase/Signup';
 
 import firebase from "firebase";
 import AddUser from './components/addUser';
+// import  Modal  from './components/Model';
 
 
 
@@ -34,6 +35,8 @@ const routes = createBrowserRouter([
   {path:'/Login', element: <Login/>},
   {path:'/Signup', element: <Signup/>},
   {path:'/Adduser', element: <AddUser/>},
+  // {path:'/Model', element: <Modal/>},
+
 
 
 
